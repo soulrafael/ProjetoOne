@@ -1,14 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
 
 import Montros.Monstros;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    Monstros novoMonstro = new Monstros();
-    novoMonstro.adicionarCriatura("car");
-    novoMonstro.adicionarCriatura("lubos");
-    novoMonstro.adicionarCriatura("yuobos");
+    List<Monstros> pokemon = new ArrayList<>();
+    Monstros no1 = new Monstros();
+    Monstros no2 = new Monstros();
 
-    System.out.println(novoMonstro);
+    no1.setNomeMonstros("javai");
+    no1.setDefesa(12);
+    no1.setForca(15);
+    no2.setNomeMonstros("ji");
+    no2.setDefesa(14);
+    no2.setForca(7);
+    pokemon.add(no1);
+    pokemon.add(no2);
+    System.out.println(pokemon);
+
+
 
     }
+
 }
