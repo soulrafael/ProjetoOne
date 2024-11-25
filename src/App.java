@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import MapaWorld.Mundos;
 import Montros.Monstros;
 import Personagens.Personagens;
 
@@ -8,6 +9,7 @@ public class App {
     public static void main(String[] args) throws Exception {
     List<Monstros> pokemon = new ArrayList<>();
     List<Personagens> treinador = new ArrayList<>();
+    List<Mundos> mundos = new ArrayList<>();
 
     Personagens treiner = new Personagens();
     Monstros no1 = new Monstros();
