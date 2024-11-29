@@ -45,8 +45,7 @@ System.out.println(pokemon);
  
     
 }
-public void xp()
-{ }
+public void xp(){ }
     }
 
 

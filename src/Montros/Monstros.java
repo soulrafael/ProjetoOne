@@ -4,18 +4,17 @@ public class Monstros {
  private String nomeMonstros;
  private int forca;
  private int defesa;
-@Override
-public String toString() {
-    return "Monstros [nomeMonstros=" + nomeMonstros + ", forca=" + forca + ", defesa=" + defesa + "]";
-}
+
 public Monstros(String nomeMonstros, int forca, int defesa) {
     this.nomeMonstros = nomeMonstros;
     this.forca = forca;
     this.defesa = defesa;
 }
+
 public Monstros() {
-    //TODO Auto-generated constructor stub
+    
 }
+
 public String getNomeMonstros() {
     return nomeMonstros;
 }
@@ -33,6 +32,10 @@ public int getDefesa() {
 }
 public void setDefesa(int defesa) {
     this.defesa = defesa;
+}
+@Override
+public String toString() {
+    return "Monstros [nomeMonstros=" + nomeMonstros + ", forca=" + forca + ", defesa=" + defesa + "]";
 }
     
 }
