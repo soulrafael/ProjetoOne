@@ -1,10 +1,13 @@
 package MapaWorld;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Mundos {
-String mundo;
+private String mundo;
+
+@Override
+public String toString() {
+    return "Mundos [mundo=" + getMundo() + "]";
+}
 
 public String getMundo() {
     return mundo;
